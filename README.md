@@ -26,39 +26,41 @@
 
 `Это ссылка на первый коммит:`
 
-1. [коммит по аервому заданию](https://github.com/KorolkovDenis/8.01-Git-Korolkov_Denis/commit/0220beaea039b1063f8ec9a30a93b0d128dc0c55)
+1. [коммит к первому заданию](https://github.com/KorolkovDenis/8.01-Git-Korolkov_Denis/commit/0220beaea039b1063f8ec9a30a93b0d128dc0c55)
+
+```
 
 Последовательность выполнения:
 
-Устанавливаем Git на пк:
-sudo apt install git
+Устанавливаем Git на пк:  
+sudo apt install git  
 
-Создал директорию для моего проекта и перешел в неё: 
-mkdir git
-сd ./git
-Клонируем с Github наш репозиторий на локальный пк:
-git clone https://github.com/KorolkovDenis/8.01-Git-Korolkov_Denis.git
-Перейдем в каталог: 8.01-Git-Korolkov_Denis
-Произведем первоначальную настройку Git:
-git config --global user.name "Denis_Korolkov"
-git config --global user.email "dvkorolkov@mail.ru"
+Создал директорию для моего проекта и перешел в неё:   
+mkdir git  
+сd ./git  
+Клонируем с Github наш репозиторий на локальный пк:  
+git clone https://github.com/KorolkovDenis/8.01-Git-Korolkov_Denis.git  
+Перейдем в каталог: 8.01-Git-Korolkov_Denis  
+Произведем первоначальную настройку Git:  
+git config --global user.name "Denis_Korolkov"  
+git config --global user.email "dvkorolkov@mail.ru"  
 
-Редактирую файл README.md
-# 8.01-Git-Korolkov_Denis
-# First commit, Git, introduction to the program
+Редактирую файл README.md  
+# 8.01-Git-Korolkov_Denis  
+# First commit, Git, introduction to the program  
 
-git status
-git diff
-git status
-git diff --staged
-git add README.md
-git status
-git diff
-git status
-git diff --staged
-git status
-git commit -m "First commit, Git, introduction to the program"
-git push origin main
+git status  
+git diff  
+git status  
+git diff --staged  
+git add README.md  
+git status  
+git diff  
+git status  
+git diff --staged  
+git status  
+git commit -m "First commit, Git, introduction to the program"  
+git push origin main  
 
 ---
 
@@ -70,20 +72,20 @@ git push origin main
 
 Последовательность выполнения:
 
-Создаем файл .gitignore:
-sudo nano .gitignore
+Создаем файл .gitignore:  
+sudo nano .gitignore  
 
-Прописываем следующее:
-*.рус
-cache/*
+Прописываем следующее:  
+*.рус  
+cache/*  
 
 Добавляем изменения в ветку:
 
-git status
-git add .gitignore
-git status
-git commit -m "Second commit, Added .gitignore"
-git push
+git status  
+git add .gitignore  
+git status  
+git commit -m "Second commit, Added .gitignore"  
+git push  
 
 ```
 
