@@ -62,6 +62,9 @@ git status
 git commit -m "First commit, Git, introduction to the program"  
 git push origin main  
 
+
+```
+
 ---  
 
 ### Задание 2  
@@ -69,6 +72,9 @@ git push origin main
 `Ссылка на коммит:`
 
 1. [Коммит ко второму заданию](https://github.com/KorolkovDenis/8.01-Git-Korolkov_Denis/commit/f4d4417c4201038d3fb85aba90d486d8cdd92c68)
+
+
+```
 
 Последовательность выполнения:
 
