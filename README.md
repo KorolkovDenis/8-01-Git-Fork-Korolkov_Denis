@@ -62,9 +62,9 @@ git status
 git commit -m "First commit, Git, introduction to the program"  
 git push origin main  
 
----
+---  
 
-### Задание 2
+### Задание 2  
 
 `Ссылка на коммит:`
 
